@@ -54,8 +54,8 @@ function WriteLog{
 ##########################################################################################################################################################
 
 $branch	     = "PADANG-SIDEMPUAN"
-$hostname    = "PDSDSFPCLGL001"
-$source      = "\\$hostname\C$\Users\zulhajji\Desktop\BPKB - 23 PADANG SIDEMPUAN"
+$hostname    = "Pdsdsfnblgl001"
+$source      = "\\$hostname\BPKB - 23 PADANG SIDEMPUAN"
 $dest        = "D:\BPKB\BPKB - 23 PADANG SIDEMPUAN"
 
 $PingResult = ValidateHost -hostname $hostname
