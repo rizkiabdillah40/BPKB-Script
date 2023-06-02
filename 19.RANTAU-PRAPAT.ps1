@@ -54,8 +54,8 @@ function WriteLog{
 ##########################################################################################################################################################
 
 $branch	     = "RANTAU-PRAPAT"
-$hostname    = "RPTDSFNBLGL001"
-$source      = "\\$hostname\c$\Users\Rahmad Dongaran\Desktop\BPKB - 19 RANTAU PRAPAT"
+$hostname    = "10.100.19.131"
+$source      = "\\$hostname\BPKB - 19 RANTAU PRAPAT Share"
 $dest        = "D:\BPKB\BPKB - 19 RANTAU PRAPAT"
 
 $PingResult = ValidateHost -hostname $hostname
