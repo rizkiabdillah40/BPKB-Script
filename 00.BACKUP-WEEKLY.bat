@@ -20,6 +20,6 @@ gsutil -m rsync -r D:\BPKB\ gs://bpkb-backup 2> D:\BACKUPLOG\%SUBFILENAME%\BACKU
 ECHO BACKUP HAS BEEN FINISHED
 ECHO COLDLINE USAGE
 
-gsutil du -sh gs://bpkb-backup
+gsutil du -sh gs://bpkb-backup/
 
 EXIT
